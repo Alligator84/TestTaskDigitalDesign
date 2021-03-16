@@ -39,7 +39,7 @@ public class main {
             }
         }
 
-        // Обрабатываем оставшиееся значения в стеке.
+        // Обрабатываем оставшиеся значения в стеке.
         for (int i = temp.size() - 1; i > 0; i--) {
             try {
                 int number = Integer.parseInt(temp.get(i - 1).toString());
